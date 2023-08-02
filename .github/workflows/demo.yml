@@ -11,7 +11,7 @@ jobs:
       - uses: azu/rss-to-twitter@v1
         with:
           # RSS feed URL
-          RSS_URL: "https://shop.erinstylr.online/a/rssfeed?type=collection&key=allproduct"
+          RSS_URL: "https://shop.erinstylr.online/a/rssfeed"
           TWEET_TEMPLATE: 'New Post: "%title%" %url%'
           UPDATE_WITHIN_MINUTES: 15
           # Twitter API Key
