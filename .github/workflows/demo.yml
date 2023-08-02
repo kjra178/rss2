@@ -11,7 +11,7 @@ jobs:
       - uses: azu/rss-to-twitter@v1
         with:
           # RSS feed URL
-          RSS_URL: "https://hnrss.org/newest"
+          RSS_URL: "https://feed.syntogether.com/skroutz/xml?shop=900045.myshopify.com"
           TWEET_TEMPLATE: 'New Post: "%title%" %url%'
           UPDATE_WITHIN_MINUTES: 15
           # Twitter API Key
